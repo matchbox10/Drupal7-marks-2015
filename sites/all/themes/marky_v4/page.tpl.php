@@ -6,39 +6,39 @@
             </div>
         </div>
        <div class="row">
-           <?php print $main_menu; ?>  
+           <?php print render($main_menu); ?>  
        </div>
         <!-- Content Top -->
         <div class="row">
 
             <div class="col-lg-12">
-                <?php print $page['featured']; ?>
+                <?php print render($page['featured']); ?>
             </div>
         </div>
         <!-- Updates -->
         <div class="row">
             <div class="col-lg-6">
-                <?php print $page['midpage_left']; ?>
+                <?php print render($page['midpage_left']); ?>
             </div>
             <div class="col-lg-6">
-                <?php print $page['midpage_right']; ?>
+                <?php print render($page['midpage_right']); ?>
             </div>
         </div>
        <!-- Content Summeries -->
         <div class="row">
             <div style="height: 300px;" class="col-lg-4">
-                <?php print $page['triptych_first']; ?>
+                <?php print render($page['triptych_first']); ?>
             </div>
             <div style="height: 300px;" class="col-lg-4">
-                <?php print $page['triptych_second']; ?>
+                <?php print render($page['triptych_second']); ?>
             </div>
             <div style="height: 300px;" class="col-lg-4">
-                <?php print $page['triptych_third']; ?>
+                <?php print render($page['triptych_third']); ?>
             </div>
         </div>
         <!-- Footer -->
         <div class="row">
-            <?php print $page['footer']; ?>
+            <?php print render($page['footer']); ?>
             <span>Copyright (c) Mark Simpson 2011</span>
         </div>
     </div>
