@@ -1,7 +1,6 @@
 name = Marky V4
 description = A flexible, recolorable theme with many regions.
 core = 7.x
-base theme = bartik
 
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
