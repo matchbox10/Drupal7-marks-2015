@@ -14,6 +14,9 @@
             <div class="col-lg-12">
                 <?php print render($page['featured']); ?>
             </div>
+            <div class="col-lg-12">
+                <?php print render($page['content']); ?>
+            </div>
         </div>
         <!-- Updates -->
         <div class="row">
