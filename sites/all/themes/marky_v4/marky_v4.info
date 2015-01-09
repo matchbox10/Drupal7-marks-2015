@@ -4,6 +4,10 @@ core = 7.x
 
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
+stylesheets[] = css/bootstrap-theme.min.css
+stylesheets[] = css/bootstrap.min.css
+
+scripts[] = js/bootstrap.min.js
 
 regions[header] = Header
 regions[help] = Help
