@@ -42,6 +42,6 @@
         <!-- Footer -->
         <div class="row">
             <?php print render($page['footer']); ?>
-            <span>Copyright (c) Mark Simpson 2011</span>
+            <span>Copyright (c) Mark Simpson 2015</span>
         </div>
     </div>
